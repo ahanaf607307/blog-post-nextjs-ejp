@@ -1,5 +1,3 @@
-
-
 const BlogDetails = async ({params}) => {
 const {blogId} = await params
 console.log(blogId)
