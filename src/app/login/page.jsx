@@ -6,8 +6,8 @@ const login = async () => {
         <>
       <div className=" py-20 flex bg-white text-black flex-col justify-center items-center gap-10">
      <div className="bg-pink-300 flex flex-col gap-5 p-10 rounded-xl">
-     <LoginLink className="btn bg-purple-600 text-white px-10" postLoginRedirectURL="/">Sign in</LoginLink>
-     <Link className="btn bg-pink-600 text-white px-10 font-bold" href={`/signup`}>Create Account</Link>
+     <LoginLink className="btn bg-purple-600 text-white px-10" postLoginRedirectURL="/">Sign in </LoginLink>
+     <Link className="btn bg-pink-600 text-white px-10 font-bold" href={`/signup`}>Create New Account</Link>
      </div>
       </div>
       
